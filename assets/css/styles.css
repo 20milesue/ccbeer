@@ -1,0 +1,47 @@
+ul.listtowns { width: 200px; float: left;}
+li { display:block; margin:0px; text-indent:0;}
+ul li { cursor: pointer; list-style-type:none; }
+/*ul li ul li:hover { background-color: #000; color: #fff;}*/
+/*ul { width: 250px; margin:0px; padding: 0px;}*/
+li.region { font-weight:bold;}
+li.town { padding-left: 10px; margin-right: -10px;}
+li.village { padding-left: 15px; margin-right: -15px;}
+
+/*#search { width: 200px; float:right;}*/
+#search select { display:block; }
+
+div#customer_list {  /*width: 775px;*/ clear:none; background-color:#fff; }
+div#customer_list table.tablesorter { position:relative; width:auto;}
+div#customer_list table td.name { width: 122px; padding:4px 0;}
+div#customer_list table td.phone { width: 81px; padding:4px 0;}
+div#customer_list table td.city  { width: 99px; padding:4px 0;}
+div#customer_list table td.beer  { width: 132px; padding:4px 0;}
+div#customer_list table td.type  { width: 72px; padding:4px 0;}
+div#customer_list table td.site  { width: 80px; padding:4px 0;}
+
+div#customer_list h2 {  z-index:1; background-color:#fff; width: 800px; margin:10px 0 0;}
+/*div#customer_list table thead tr, div#customer_list h2 { position:fixed;}*/
+/*div#customer_list h2 { top: 490px; background-color:#fff;}*/
+/*div#customer_list table thead tr { top: 530px;}*/
+div#customer_list table tbody  { padding-top:40px;}
+div#map_canvas {  width: 700px; border: 2px solid #000;  height: 400px;  }
+div#map_container { /*position:fixed;  top:90px; z-index:15; clear:both;*/ }
+table#customers tr.cust:hover { background-color: #cecece; cursor:pointer;}
+div.single { 	width: 100%; margin: 10px 0;	}
+div#content { width: 1000px; }
+#customers thead th { text-align:left;}
+#map_canvas  p { margin:0;}
+/*table tr td { text-transform: capitalize;}*/
+#wrapper #content .single  .entry #search { width: 250px; float: right; height: 200px;}
+#wrapper #content .single  .entry #search select { width: 200px; margin: 10px;}
+#reset { cursor: pointer; color: #AC0604; font-weight:bold; font-size: 125%; padding: 10px; /*border: 1px solid #AC0604; background-color: #efefef;*/ text-align:center; margin:10px;}
+#reset:hover { color: #455236; text-decoration:underline;}
+table tbody tr:hover td { background-color: #cecece;}
+div.entry { float:none;}
+div.entry h1 { padding: 10px 0;}
+
+#content {padding: 0px 0px 0px 0px;
+background-repeat: repeat;
+background-color: #DFE3E6;
+background-image: url(http://www.capecodbeer.com/brewery/wp-content/themes/scarlett/images/wrapper.jpg);
+}

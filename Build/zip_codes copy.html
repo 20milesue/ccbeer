@@ -1,0 +1,184 @@
+<body>
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cape Cod Beer - Beer Finder Administration</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+</head>
+<body>
+<header>
+	<div class="row">
+		<div class="columns large-8">
+			<a href="index.html"><h1 class="site-id"><img src="http://placehold.it/300x100&amp;text=CCBeer LOGO"></h1></a>
+		</div>
+		<div class="columns large-4">
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="columns large-12">
+
+			<nav class="top-bar">
+				  <ul class="title-area">
+				    <!-- Title Area -->
+				    <li class="name"></li>
+				    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+				    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+				  </ul>
+
+				  <section class="top-bar-section">
+				    <!-- Left Nav Section -->
+				    <ul class="left">
+				      <li><a href="customers.html">CustContact</a></li>
+				    </ul>
+				  </section>
+				</nav>
+
+		</div>
+	</div>
+</header>
+
+
+<div class="page-content news"> <!-- use the article tag if appropriate -->
+	<div class="row page-title">
+		<div class="columns large-12">
+			<h1>Customer List</h1>
+		</div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+		<div class="row headline">
+		<div class="columns small-2"><h4>10/21</h4><p>Zip Code</p></div>
+		<div class="columns small-10"><a href="customer_detail.html"><h2>Customer Name</h2></a><p><a href="#">Brands</a></p></div>
+	</div>
+
+	<div class="row">
+		<div class="columns large-12">
+			<ul class="pagination">
+			  <li class="arrow unavailable"><a href="">&laquo;</a></li>
+			  <li class="current"><a href="">1</a></li>
+			  <li><a href="">2</a></li>
+			  <li><a href="">3</a></li>
+			  <li><a href="">4</a></li>
+			  <li class="unavailable"><a href="">&hellip;</a></li>
+			  <li><a href="">12</a></li>
+			  <li><a href="">13</a></li>
+			  <li class="arrow"><a href="">&raquo;</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+<footer>
+	<div class="row">
+		<div class="columns large-10">
+			<p>&copy;<SCRIPT>
+				<!--
+				var year=new Date();
+				year=year.getYear();
+				if (year<1900) year+=1900;
+				document.write(year);
+				//-->
+				</SCRIPT> Acme Company, Inc. All rights reserved.</p>
+		</div>
+		<div class="columns large-2">
+			<a href="http://www.20mile.in" target="_blank" id="20mile-mark"><img src="http://www.20mile.in/20mile-label-dark.png" alt="Made by 20Mile Interactive"></a>
+		</div>
+	</div>
+</footer>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/foundation/foundation.js'></script>
+    <script src='assets/js/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/foundation/foundation.forms.js'></script>
+    <script src='assets/js/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/foundation/foundation.section.js'></script>
+    <script src='assets/js/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/foundation/foundation.topbar.js'></script>
+	<script src='assets/js/script.js'></script>
+</body>
+</html>

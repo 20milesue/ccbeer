@@ -1,4 +1,4 @@
-ccbeer
-======
+project-starter-template
+========================
 
-Beer Finder updates &amp; admin dashboard
+Template for web projects with Hammer and Foundation4
